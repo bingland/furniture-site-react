@@ -11,9 +11,10 @@
   display: flex;
   padding: 0px;
   align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #e0d8c3;
+  background-color: #e0cfaf;
 }
 .image {
   width: 415px;
