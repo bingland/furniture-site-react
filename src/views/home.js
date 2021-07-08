@@ -20,11 +20,7 @@ const Home = () => {
           <h1 className={styles.text}>Welcome</h1>
           <div className={styles.container3}>
             <span className={styles.text1}>
-              Porttitor Leo a diam sollicitudin tempor id eu nisl nunc. Egestas purus viverra
-              accumsan in. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla.
-              Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Egestas purus
-              viverra accumsan in. Cursus eget nunc scelerisque viverra mauris in aliquam sem
-              fringilla. Cursus eget nunc scelerisque viverra mauris in.
+              Hey wow chicken is yummy
             </span>
           </div>
           <button className={` ${projectStyles.thqButton} ${styles.button} `}>Learn More</button>
