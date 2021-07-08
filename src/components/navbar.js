@@ -23,27 +23,27 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  image_src: '/playground_assets/logo-1000h.png',
   image_alt: 'image',
-  text: 'Store',
-  text1: 'Gallery',
-  text2: 'Contact',
-  text3: 'Blog',
-  text4: 'Brayden England',
-  image_src1: '/playground_assets/userimage-1000h.png',
   image_alt1: 'image',
+  text1: 'Gallery',
+  image_src: '/playground_assets/logo-1000h.png',
+  text3: 'Blog',
+  text: 'Store',
+  text2: 'Contact',
+  image_src1: '/playground_assets/userimage-1000h.png',
+  text4: 'Brayden England',
 }
 
 Navbar.propTypes = {
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  text3: PropTypes.string,
-  text4: PropTypes.string,
-  image_src1: PropTypes.string,
   image_alt1: PropTypes.string,
+  text1: PropTypes.string,
+  image_src: PropTypes.string,
+  text3: PropTypes.string,
+  text: PropTypes.string,
+  text2: PropTypes.string,
+  image_src1: PropTypes.string,
+  text4: PropTypes.string,
 }
 
 export default Navbar
